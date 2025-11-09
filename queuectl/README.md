@@ -8,11 +8,11 @@
 🎯 Objective: CLI-based background job system with retry, DLQ, dashboard
 
 ######################################################################
-# 🏗️ 1️⃣ SETUP PROJECT
+# 🏗️ 1 SETUP PROJECT
 ######################################################################
 
 # Clone Repository
-git clone https://github.com/<your-username>/queuectl.git
+https://github.com/vamsichandramohan2004/Job_terminal
 cd queuectl
 
 # Create Virtual Environment
@@ -31,28 +31,7 @@ pip install -r requirements.txt
 bash setup.sh
 
 ######################################################################
-# ⚙️ 2️⃣ PROJECT STRUCTURE
-######################################################################
-
-# Folder Tree Overview
-tree -L 2
-
-# queuectl/
-# ├── queuectl.py                → CLI entrypoint
-# ├── src/
-# │   ├── models.py              → Job dataclass
-# │   ├── storage.py             → SQLite persistence
-# │   ├── queue_manager.py       → Enqueue, DLQ, retry logic
-# │   ├── worker.py              → Worker system
-# │   ├── config.py              → Config management
-# │   └── dashboard.py           → Flask web dashboard (Bonus)
-# ├── tests/
-# │   ├── validate_system.py     → Smoke test
-# ├── queue.db                   → SQLite database (auto-created)
-# ├── DESIGN.md, README.md, QUICKSTART.md, etc.
-
-######################################################################
-# 💡 3️⃣ CORE FEATURES
+# 💡 2 CORE FEATURES
 ######################################################################
 
 # ✅ Persistent Job Queue (SQLite)
@@ -64,7 +43,7 @@ tree -L 2
 # ✅ Flask Dashboard (Auto-refresh, Bonus)
 
 ######################################################################
-# 💻 4️⃣ BASIC USAGE
+# 💻 3 BASIC USAGE
 ######################################################################
 
 # --- Enqueue a New Job ---
@@ -95,7 +74,7 @@ python queuectl.py config set max_retries 5
 python queuectl.py selftest
 
 ######################################################################
-# 🌐 5️⃣ FLASK DASHBOARD (BONUS FEATURE)
+# 🌐 4 FLASK DASHBOARD (BONUS FEATURE)
 ######################################################################
 
 # Launch Dashboard
@@ -112,7 +91,7 @@ python queuectl.py dashboard --port 5000
 #   - Sleek dark mode design 💚
 
 ######################################################################
-# 🔄 6️⃣ JOB LIFECYCLE
+# 🔄 5 JOB LIFECYCLE
 ######################################################################
 
 # pending → processing → completed
@@ -126,7 +105,7 @@ python queuectl.py dashboard --port 5000
 # Example: base=2 → delays = 1s, 2s, 4s, 8s → DLQ after retries
 
 ######################################################################
-# 🧪 7️⃣ EXAMPLES
+# 🧪 6 EXAMPLES
 ######################################################################
 
 # --- Successful Job Example ---
@@ -144,7 +123,7 @@ python queuectl.py worker start --count 1
 # Worker-1: failed (attempt 3), moving to DLQ ❌
 
 ######################################################################
-# 📋 8️⃣ EVALUATION CHECKLIST
+# 📋 7 EVALUATION CHECKLIST
 ######################################################################
 
 # ✅ Working CLI Application
@@ -173,14 +152,6 @@ python queuectl.py worker start --count 1
 #   3️⃣ Demo Video (CLI + Dashboard)
 #   4️⃣ DESIGN.md and QUICKSTART.md
 #   5️⃣ Verified Working Code
-
-######################################################################
-# 📹 🔗 10️⃣ DEMO VIDEO LINK
-######################################################################
-
-# 🎥 Add your recorded demo link here:
-# Example:
-# https://drive.google.com/file/d/<your-demo-id>/view?usp=sharing
 
 ######################################################################
 # 💾 11️⃣ PERSISTENCE DETAILS
