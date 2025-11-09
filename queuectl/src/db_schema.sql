@@ -1,0 +1,27 @@
+-- db_schema.sql
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS meta (
+  key TEXT PRIMARY KEY,
+  value TEXT
+);
+
+CREATE TABLE IF NOT EXISTS jobs (
+  id TEXT PRIMARY KEY,
+  command TEXT NOT NULL,
+  state TEXT NOT NULL DEFAULT 'pending',
+  attempts INTEGER NOT NULL DEFAULT 0,
+  max_retries INTEGER NOT NULL DEFAULT 3,
+  created_at TEXT NOT NULL,
+  updated_at TEXT NOT NULL,
+  next_attempt INTEGER NOT NULL DEFAULT 0,
+  timeout INTEGER DEFAULT 60
+);
+
+CREATE TABLE IF NOT EXISTS dlq (
+  id TEXT PRIMARY KEY,
+  command TEXT NOT NULL,
+  failed_at TEXT NOT NULL,
+  attempts INTEGER NOT NULL,
+  last_error TEXT
+);
+COMMIT;

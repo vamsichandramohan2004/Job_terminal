@@ -1,0 +1,143 @@
+2025-11-09T05:16:11.641Z INFO SharedStateManager initialized
+2025-11-09T05:16:11.643Z INFO Is remote: false
+2025-11-09T05:16:11.645Z INFO Starting Local. Installation path: c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub
+2025-11-09T05:16:11.648Z INFO [MainProvider] Creating new MainProvider instance...
+2025-11-09T05:16:11.654Z INFO Installation path exists: c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub
+2025-11-09T05:16:11.660Z INFO Initializing database with URL: file:c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub\pythagora-core\data\database\pythagora.db
+2025-11-09T05:16:11.679Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-11-09T05:16:11.682Z INFO Database initialized successfully
+2025-11-09T05:16:11.684Z INFO [Migration] Checking for database migration...
+2025-11-09T05:16:15.236Z INFO [Migration] No migration needed
+2025-11-09T08:06:09.218Z INFO Closing entire Pythagora extension...
+2025-11-09T08:06:09.323Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\HP\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.30\out\extension.js:538:31)
+    at Object.deactivate (c:\Users\HP\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.30\out\extension.js:429:15)
+    at SZ.eb (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}
+2025-11-09T11:16:17.712Z INFO SharedStateManager initialized
+2025-11-09T11:16:17.714Z INFO Is remote: false
+2025-11-09T11:16:17.715Z INFO Starting Local. Installation path: c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub
+2025-11-09T11:16:17.717Z INFO [MainProvider] Creating new MainProvider instance...
+2025-11-09T11:16:17.721Z INFO Installation path exists: c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub
+2025-11-09T11:16:17.723Z INFO Initializing database with URL: file:c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub\pythagora-core\data\database\pythagora.db
+2025-11-09T11:16:17.731Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-11-09T11:16:17.732Z INFO Database initialized successfully
+2025-11-09T11:16:17.734Z INFO [Migration] Checking for database migration...
+2025-11-09T11:16:18.279Z INFO [Migration] No migration needed
+2025-11-09T11:16:37.419Z INFO [MainProvider] First file opened, creating split view
+2025-11-09T11:16:37.422Z INFO splitCodeView: Creating split layout with code on left, Pythagora on right
+2025-11-09T11:16:39.079Z INFO splitCodeView: Split layout created successfully
+2025-11-09T11:16:42.608Z INFO [MainProvider] First file opened, creating split view
+2025-11-09T11:16:42.610Z INFO splitCodeView: Creating split layout with code on left, Pythagora on right
+2025-11-09T11:16:42.831Z INFO splitCodeView: Split layout created successfully
+2025-11-09T11:16:48.982Z INFO Successfully restored from code view
+2025-11-09T11:16:51.021Z INFO [MainProvider] First file opened, creating split view
+2025-11-09T11:16:51.022Z INFO splitCodeView: Creating split layout with code on left, Pythagora on right
+2025-11-09T11:16:51.419Z INFO splitCodeView: Split layout created successfully
+2025-11-09T11:20:52.290Z INFO [MainProvider] First file opened, creating split view
+2025-11-09T11:20:52.298Z INFO splitCodeView: Creating split layout with code on left, Pythagora on right
+2025-11-09T11:20:52.752Z INFO splitCodeView: Split layout created successfully
+2025-11-09T11:21:00.279Z INFO Successfully restored from code view
+2025-11-09T11:21:06.801Z INFO [MainProvider] First file opened, creating split view
+2025-11-09T11:21:06.802Z INFO splitCodeView: Creating split layout with code on left, Pythagora on right
+2025-11-09T11:21:07.139Z INFO splitCodeView: Split layout created successfully
+2025-11-09T12:46:16.894Z INFO Closing entire Pythagora extension...
+2025-11-09T12:46:16.960Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\HP\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.31\out\extension.js:536:31)
+    at Object.deactivate (c:\Users\HP\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.31\out\extension.js:427:15)
+    at SZ.eb (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+Extra context: {
+  "message": "Canceled"
+}
+2025-11-09T15:30:57.739Z INFO SharedStateManager initialized
+2025-11-09T15:30:57.741Z INFO Is remote: false
+2025-11-09T15:30:57.742Z INFO Starting Local. Installation path: c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub
+2025-11-09T15:30:57.743Z INFO [MainProvider] Creating new MainProvider instance...
+2025-11-09T15:30:57.747Z INFO Installation path exists: c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub
+2025-11-09T15:30:57.748Z INFO Initializing database with URL: file:c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub\pythagora-core\data\database\pythagora.db
+2025-11-09T15:30:57.754Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-11-09T15:30:57.755Z INFO Database initialized successfully
+2025-11-09T15:30:57.756Z INFO [Migration] Checking for database migration...
+2025-11-09T15:30:58.189Z INFO [Migration] No migration needed
+2025-11-09T15:33:16.181Z INFO Closing entire Pythagora extension...
+2025-11-09T15:33:16.206Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\HP\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.31\out\extension.js:536:31)
+    at Object.deactivate (c:\Users\HP\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.31\out\extension.js:427:15)
+    at SZ.eb (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/HP/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}
+2025-11-09T16:25:59.449Z INFO SharedStateManager initialized
+2025-11-09T16:25:59.451Z INFO Is remote: false
+2025-11-09T16:25:59.452Z INFO Starting Local. Installation path: c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub
+2025-11-09T16:25:59.453Z INFO [MainProvider] Creating new MainProvider instance...
+2025-11-09T16:25:59.455Z INFO Installation path exists: c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub
+2025-11-09T16:25:59.456Z INFO Initializing database with URL: file:c:\Users\HP\OneDrive\Desktop\ENGG\Book-Pub\pythagora-core\data\database\pythagora.db
+2025-11-09T16:25:59.463Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-11-09T16:25:59.464Z INFO Database initialized successfully
+2025-11-09T16:25:59.466Z INFO [Migration] Checking for database migration...
+2025-11-09T16:25:59.879Z INFO [Migration] No migration needed
+2025-11-09T16:26:12.579Z INFO [MainProvider] First file opened, creating split view
+2025-11-09T16:26:12.581Z INFO splitCodeView: Creating split layout with code on left, Pythagora on right
+2025-11-09T16:26:13.119Z INFO splitCodeView: Split layout created successfully
+2025-11-09T16:26:19.341Z INFO Successfully restored from code view
+2025-11-09T16:26:22.636Z INFO [MainProvider] First file opened, creating split view
+2025-11-09T16:26:22.637Z INFO splitCodeView: Creating split layout with code on left, Pythagora on right
+2025-11-09T16:26:22.934Z INFO splitCodeView: Split layout created successfully
+2025-11-09T16:27:37.660Z INFO [MainProvider] First file opened, creating split view
+2025-11-09T16:27:37.661Z INFO splitCodeView: Creating split layout with code on left, Pythagora on right
+2025-11-09T16:27:37.973Z INFO splitCodeView: Split layout created successfully
